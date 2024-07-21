@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  align-items: center;
+  max-width: 90%;
+  background-color: whitesmoke;
+}
+
+nav {
+  background-color: whitesmoke;
+}
+ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover,
+li a:focus {
+  text-decoration: underline;
+}
+
+.section {
+  margin: 5rem;
+}
+
+div {
+  margin: 2rem;
+  display: inline-block;
+  height: 500px;
+  width: 20%;
+  background-color: lightgrey;
+}
